@@ -4,9 +4,19 @@ Repositorio de entrenamiento para certificación de java 17
 
 Basado en el libro "OCP Oracle Certified Professional Java SE 17 Developer Certification Kit: Exam 1Z0-829 1st Edition"
 
+https://www.selikoff.net/ocp17/
+
+
+https://docs.oracle.com/en/java/javase/17/docs/api/
+
+
 https://drive.google.com/drive/folders/1-6IgxrVgS5FrPPjFwXTNkglQEXchXYag
 
 
+
+
+
+*** Github ***
 
 git config --global user.name "Diego"       
 git config --global user.name
@@ -20,4 +30,5 @@ cat id_rsa.pub | pbcopy
 
 
 git clone git@github.com:diargolo/ocp-java.git
+
 

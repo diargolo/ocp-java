@@ -1,6 +1,6 @@
 package packagetest;
 
-public class TestTypes {
+public class TestPrimitivesTypes {
 
 	char caracter;
 	int entero;
@@ -36,21 +36,30 @@ public class TestTypes {
 
 		// ** No compilan
 		//int entero = 102030l;
+		//int val = null;
 		//long largo1 = 9020304050;
 		//int octal = 0125967;
 		//int hexa = 12345f;
 		//int binario = 0B11003;
+		//int _under = _123;
+		//double flotante = 102030_.0;
 
+
+		int _under = 1_23;
 		long largo = 9020304050L;
 		float flotante = 102030;
 		float flotante1 = 102030F;
+		double dobleFlotante = 102030_0.0;
+
 		int octal = 01234567;
 		int hexa = 0x12345f;
 		int binario = 0B1100;
 
+		System.out.println("_under: " + _under);
 		System.out.println("largo: " + largo);
 		System.out.println("flotante: " + flotante);
 		System.out.println("flotante1: " + flotante1);
+		System.out.println("dobleFlotante: " + dobleFlotante);
 		System.out.println("octal: " + octal);
 		System.out.println("hexa: " + hexa);
 		System.out.println("binario: " + binario);
