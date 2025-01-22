@@ -17,7 +17,7 @@ public class TestPrimitivesTypes {
 
 		System.out.println("entero: " + entero);
 
-		TestTypes test = new TestTypes();
+		TestPrimitivesTypes test = new TestPrimitivesTypes();
 
 		System.out.println("caracter: " + test.caracter);
 		System.out.println("entero: " + test.entero);
@@ -29,10 +29,13 @@ public class TestPrimitivesTypes {
 		System.out.println("dobleFlotante: " + test.dobleFlotante);
 
 		test.asignaciones();
+		test.var();
 
 	}
 
 	void asignaciones() {
+
+		System.out.println("** function asignaciones **");
 
 		// ** No compilan
 		//int entero = 102030l;
@@ -64,6 +67,20 @@ public class TestPrimitivesTypes {
 		System.out.println("hexa: " + hexa);
 		System.out.println("binario: " + binario);
 
+	}
+
+	void var() { 
+
+		System.out.println("** function var **");
+
+		var a = 10;
+		System.out.println("a: " + a);
+
+		//int var = 10,c = 10; // ERROR
+		
+		int b = 10,c = 10;
+		System.out.println("b: " + b);
+		System.out.println("c: " + c);
 	}
 }
 
